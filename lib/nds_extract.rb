@@ -33,7 +33,6 @@ def list_of_directors(source)
     counter += 1
   end
   names
-end
   # Write this implementation
 end
 
