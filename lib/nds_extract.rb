@@ -52,7 +52,7 @@ def total_gross(source)
 
   while counter < dir_name.length do
     dir_name = dir_name[counter]
-    total += earnings[dir_name]
+    total = earnings[dir_name]
     counter += 1
   end
   total
