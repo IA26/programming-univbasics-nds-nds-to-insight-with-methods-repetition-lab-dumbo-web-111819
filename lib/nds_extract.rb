@@ -50,7 +50,7 @@ def total_gross(source)
   total = directors_totals(source)
   names = list_of_directors(source)
   while counter < names.length do 
-    total += total[names_array[counter]]
+    total += total[names[counter]]
     counter += 1 
   end 
   total
