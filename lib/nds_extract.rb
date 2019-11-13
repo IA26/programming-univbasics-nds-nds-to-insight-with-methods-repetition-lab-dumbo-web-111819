@@ -49,8 +49,7 @@ def total_gross(source)
   # return the total
   dir_to_earnings_hash = directors_totals(source)
   dir_names = list_of_directors(source)
-  i = 0
-
+  counter = 0
   total = 0
 
   while counter < dir_names.length do
